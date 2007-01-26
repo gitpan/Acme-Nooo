@@ -1,0 +1,6 @@
+ChangeLog
+Makefile.PL
+MANIFEST
+README
+test.pl
+lib/Acme/Nooo.pm
