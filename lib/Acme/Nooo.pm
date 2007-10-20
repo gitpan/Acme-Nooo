@@ -1,6 +1,6 @@
 package Acme::Nooo;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub import
 {
@@ -89,7 +89,7 @@ Acme::Nooo - But I don't B<care> if "It Has Objects"!
 
 =head1 DESCRIPTION
 
- Tired of "object-fetishist" modules that force you to create a handle
+Tired of "object-fetishist" modules that force you to create a handle
 object when a simple procedural interface would have been sufficient?
 C<Acme::Nooo> will import functions into the current namespace to
 de-objectify abominable interfaces.
@@ -112,7 +112,7 @@ For finer-grained control,
 
 exports only the functions named in C<NAMES>.
 
-=head2 EXPORT
+=head1 EXPORT
 
 It depends.  C<Acme::Nooo> exports other modules' functions.
 
